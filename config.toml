@@ -1,0 +1,76 @@
+baseURL = "https://blog.jeroenmaes.eu"
+languageCode = "en-us"
+title = "blog.jeroenmaes.eu"
+theme = "cactus"
+
+[permalinks]
+  posts = "/:year/:month/:title/"
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Writings"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+
+  colortheme = "classic" # dark, light, white, or classic
+  rss = false # generate rss feed. default value is false
+  googleAnalyticsAsync = false # use asynchronous tracking. Synchronous tracking by default
+
+  # Home page settings
+  description = "Writings on personal adventures."
+  mainSection = "posts" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 10 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = false # show tags overview by default.
+  showProjectsList = false # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/gohugoio" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  [params.comments]
+    enabled = false # default
+    engine = "disqus" # more supported engines will be added.
+
+  # the value of name should be an valid font awesome icon name (brands type)
+  # https://fontawesome.com/icons?d=gallery&s=brands
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/_jems"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/jeroenmaes"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/maesjeroen/"
+  #[[params.social]]
+  # name = "email"
+  # link = "jeroen.maes@live.com"  # no need for "mailto:" in the head
