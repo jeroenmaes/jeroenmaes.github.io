@@ -18,7 +18,7 @@ _Disclaimer: an MSDN subscription is required to make use of developer licenses.
 
 Step 1: Create a new VM based on the "SQL Server 2017 on Windows Server 2016 image":
 
-![](mage-1.png)
+![](image-1.png)
 
 **Why? It is possible to assign this image a "free developer license". This image also comes with SQL Server 2017 (and Management Studio) installed and preconfigured.**
 
