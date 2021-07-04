@@ -1,4 +1,4 @@
-baseURL = "https://test.jeroenmaes.eu"
+baseURL = "https://blog.jeroenmaes.eu"
 languageCode = "en-us"
 title = "blog.jeroenmaes.eu"
 theme = "cactus"
