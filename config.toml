@@ -57,7 +57,7 @@ weight = 4
   showReadTime = true # default
 
   [params.comments]
-    enabled = false # default
+    enabled = true # default
     engine = "disqus" # more supported engines will be added.
 
   # the value of name should be an valid font awesome icon name (brands type)
