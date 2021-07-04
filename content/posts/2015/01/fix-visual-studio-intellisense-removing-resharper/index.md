@@ -13,7 +13,8 @@ tags:
 
 **The Solution:** Check your Visual Studio settings and reset them to the following defaults:
 
-[![2015-01-23 10_13_08-Options](/images/2015-01-23-10_13_08-Options.png)![2015-01-23 10_13_47-Start Page - Microsoft Visual Studio (Administrator)](/images/2015-01-23-10_13_47-Start-Page-Microsoft-Visual-Studio-Administrator.png)](http://blog.jeroenmaes.eu/wp-content/uploads/2015/01/2015-01-23-10_13_47-Start-Page-Microsoft-Visual-Studio-Administrator.png)
+![2015-01-23 10_13_08-Options](2015-01-23-10_13_08-Options.png)
+![2015-01-23 10_13_47-Start Page - Microsoft Visual Studio (Administrator)](2015-01-23-10_13_47-Start-Page-Microsoft-Visual-Studio-Administrator.png)
 
 A restart of VIsual Studio may be necessary after resetting this.
 
