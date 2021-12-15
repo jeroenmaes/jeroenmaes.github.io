@@ -9,7 +9,12 @@ tags:
   - "activemq"
 ---
 
-Countainer source: https://github.com/qoricode/activemq-artemis-docker
+The Redhat AMQ Broker docker images are not publicly available for download...
+
+While investigating some of the AMQP client connection options for .NET I had to find an alternative solution.
+Luckily, Redhat AMQ Broker is basically just ActiveMQ Artemis under the hood.
+
+After a litte search I found a valid image for my test scenario that works on Docker Desktop: https://github.com/qoricode/activemq-artemis-docker
 
 ```
 
@@ -25,4 +30,4 @@ u: artemis
 p: simetraehcapa
 
 ```
-
+![](artemismqdocker.png)
