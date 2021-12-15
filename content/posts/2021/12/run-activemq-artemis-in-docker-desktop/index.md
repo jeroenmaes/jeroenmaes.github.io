@@ -31,3 +31,5 @@ p: simetraehcapa
 
 ```
 ![](artemismqdocker.png)
+
+Link to my amqpnet test console project: https://github.com/jeroenmaes/amqp-test-console
