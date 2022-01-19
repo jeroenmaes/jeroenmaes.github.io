@@ -37,3 +37,8 @@ p: simetraehcapa
 ![](artemismqdocker.png)
 
 Link to my amqpnet test console project: https://github.com/jeroenmaes/amqp-test-console
+
+To validate the content of the mounted volums in Docker Desktop on windows, browse the following path:
+```
+\\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes\
+```
