@@ -18,10 +18,10 @@ Since the SFTP protocol does not use HTTPS, you don't need to bother with custom
 You only need to add a CNAME that points to your storage account.
 
 ```
-<local_user>@<my_storage_account>.blob.core.windows.net CNAME <local_user>@sftp.my.custom.domain.com
+my_storage_account.blob.core.windows.net CNAME sftp.custom.domain.com
 ```
 
-Currently this is not possible to configure using the Azure Portal, you need Azure Powershell:
+Currently this is not possible to configure using the Azure Portal, you need Azure Powershell to update the storage account:
 https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name?tabs=azure-powershell#endpoint
 
 ```
