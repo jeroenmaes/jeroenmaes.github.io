@@ -1,6 +1,6 @@
-baseURL = "https://blog.jeroenmaes.eu"
+baseURL = "https://jeroenmaes.github.io"
 languageCode = "en-us"
-title = "blog.jeroenmaes.eu"
+title = "jeroenmaes.github.io"
 theme = "cactus"
 
 [permalinks]
