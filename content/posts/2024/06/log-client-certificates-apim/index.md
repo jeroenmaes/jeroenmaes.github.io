@@ -8,11 +8,10 @@ tags:
   - "apim"
 ---
 
-mTLS is used very often in enterprise integration scenarios.
-Testing this kind of security implementation always requires a lot of effort by both parties.
+mTLS is used very often in enterprise integration scenarios. Testing this kind of security implementation always requires a lot of effort by both parties.
 
-Being able to log/trace the actual used Subject and IssuerName can yelp quite a lot.
-By usin the [trace policy of APIM](https://learn.microsoft.com/en-us/azure/api-management/trace-policy) we can log the values straight to Application Insights:
+Being able to log/trace the actual sent SubjectName and IssuerName can help quite a lot.
+By using the [trace policy of APIM](https://learn.microsoft.com/en-us/azure/api-management/trace-policy) we can log the values straight to Application Insights:
 
 ```
 <policies>
@@ -41,7 +40,7 @@ By usin the [trace policy of APIM](https://learn.microsoft.com/en-us/azure/api-m
 </policies>
 ```
 
-The result in Application Insights for an API request when a Client Certificate is provided:
+The result in Application Insights, for an API request when a Client Certificate is provided, looks something like this:
 
 ![Application Insight - API Management trace policy for logging ClientCertificate details](apim_logger_cert.png)
 
