@@ -1,5 +1,5 @@
 ---
-title: "How to log Client Certificates in Azure API Management"
+title: "Logging Client Certificate details in Azure API Management"
 date: "2024-06-14"
 categories: 
   - "apim"
@@ -8,7 +8,11 @@ tags:
   - "apim"
 ---
 
-TODO
+mTLS is used very often in enterprise integration scenarios.
+Testing this kind of security implementation always requires a lot of effort by both parties.
+
+Being able to log/trace the actual used Subject and IssuerName can yelp quite a lot.
+By usin the [trace policy of APIM](https://learn.microsoft.com/en-us/azure/api-management/trace-policy) we can log the values straight to Application Insights:
 
 ```
 <policies>
@@ -37,8 +41,8 @@ TODO
 </policies>
 ```
 
-The result in Application Insights for an API request with a ClientCertificate provided:
+The result in Application Insights for an API request when a Client Certificate is provided:
 
-![Application Insight - API Management trace policy for logging ClientCertificate details](apim_logger_cert.jpg)
+![Application Insight - API Management trace policy for logging ClientCertificate details](apim_logger_cert.png)
 
 
