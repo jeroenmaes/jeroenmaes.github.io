@@ -15,28 +15,26 @@ The HP ProLiant MicroServer N36L is a relic of the early 2010s, but with a littl
 
 ---
 
-## **1. Updating the BIOS to the Latest Unofficial Version**  
+## **1. Updating the BIOS**  
 The N36L’s stock BIOS is limited, especially for modern storage configurations. To unlock features like AHCI support (critical for SSD performance) and better hardware compatibility, I flashed an **unofficial BIOS** from the enthusiast community.  
 
 **Steps I followed:**  
 - Downloaded the modified BIOS from [Nathaniel Perez](https://www.nathanielperez.us/blog/hp-proliant-n40l-bios-modification-guide).  
-- Use a empty USB drive formatted to flash the BIOS using the included utility.
-- Read the instructions!  
-- Enabled AHCI mode to improve SATA performance and allow hot-swapping drives.  
+- Use a empty USB drive  to flash the BIOS using the included utility.
+- Read the instructions! (you need to replace the ROM file manually after using the utility).
+- Boot the server from the USB drive and flash the BIOS. 
+- Afther updating the modified BIOS: enable AHCI mode to improve SATA performance and allow hot-swapping drives.  
 
 **⚠️ Warning:** BIOS flashing carries risks. Follow instructions meticulously to avoid bricking your server.  
 
 ---
 
-## **2. Upgrading RAM to 8GB for Smoother Performance**  
-The N36L’s default 2GB RAM is insufficient for multitasking or running modern NAS software. I upgraded to **8GB DDR3 RAM**.  
-
-**Why 8GB?**  
-- **Multitasking:** More RAM allows running Docker containers, VMs, or Plex without hiccups.  
+## **2. Upgrading RAM**  
+The N36L’s default 2GB RAM is insufficient for multitasking or running modern NAS software. I upgraded to **8GB DDR3 RAM** that I had lying arround.  
 
 ---
 
-## **3. Booting from an Internal USB SSD for Reliability**  
+## **3. Booting from an Internal USB SSD**  
 The N36L has a hidden gem: an **internal USB port** perfect for a low-profile boot drive. I opted for the [HP x911w 128GB USB 3.0 SSD](https://www.amazon.com.be/dp/B0B1WSTNBL?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1), which fits snugly inside the chassis.  
 
 **Advantages:**  
@@ -46,7 +44,7 @@ The N36L has a hidden gem: an **internal USB port** perfect for a low-profile bo
 
 ---
 
-## **4. Installing OpenMediaVault: The Heart of the NAS**  
+## **4. Installing OpenMediaVault**  
 OpenMediaVault (OMV) is a lightweight, Debian-based NAS OS ideal for older hardware. Here’s how I set it up:  
 
 **Installation Steps:**  
@@ -65,24 +63,14 @@ Traditional USB sticks fail in a matter of time under constant read/write cycles
 
 **Installation Steps:**  
 1. Use Putty to connect to the NAS over SSH.
-2. Install OMV-Extras 
+2. Install OMV-Extras: ```wget -O - https://github.com/OpenMediaVault-Plugin-Developers/packages/raw/master/install | bash```
 3. Install the plugin openmediavault-flashmemory via the WebUI
 
 ---
 
-## **Conclusion: A Budget NAS That Still Packs a Punch**  
-Total cost for this project:  
-- **N36L:** Already owned (or ~€50 used).  
-- **RAM:** Already owned (or ~€15 new).  
-- **USB SSD:** €30.  
-- **Drives:** Repurposed from old PCs.  
+## **Conclusion**  
+Without breaking the bank I revived a decade-old server, that was already collecting dust, into a functional NAS. 
 
-For under €30, I revived a decade-old server into a functional NAS that handles backups, media streaming, and light homelab duties. While newer builds offer 10GbE and NVMe speeds, the N36L proves that sustainability and affordability can coexist in tech.  
-
----
-
-## **Further Reading**  
-- [HP N36L BIOS Mod Guide](http://microserver.wikidot.com/wiki:n36l-bios-firmwares)  
-- [OpenMediaVault Setup Tips](https://www.wundertech.net/diy-nas-build-guide/)  
+What's next? Configuring OMV and exploring the limitations of the hardware and software.
 
 
