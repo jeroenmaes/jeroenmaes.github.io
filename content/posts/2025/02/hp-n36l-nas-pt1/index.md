@@ -25,8 +25,6 @@ The N36L’s stock BIOS is limited, especially for modern storage configurations
 - Boot the server from the USB drive and flash the BIOS. 
 - Afther updating the modified BIOS: enable AHCI mode to improve SATA performance and allow hot-swapping drives.  
 
-**⚠️ Warning:** BIOS flashing carries risks. Follow instructions meticulously to avoid bricking your server.  
-
 ---
 
 ## **2. Upgrading RAM**  
