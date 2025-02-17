@@ -1,5 +1,5 @@
 ---
-title: "Breathing New Life into a +10-Year-Old HP N36L MicroServer: My DIY NAS Journey - Part 1"
+title: "HP N36L MicroServer: My DIY NAS Journey - Part 1"
 date: "2025-02-16"
 categories: 
   - "nas"
