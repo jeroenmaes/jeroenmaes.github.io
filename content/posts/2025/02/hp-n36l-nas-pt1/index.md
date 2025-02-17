@@ -1,5 +1,5 @@
 ---
-title: "HP N36L MicroServer: My DIY NAS Journey - Part 1"
+title: "HP N36L MicroServer: My DIY NAS - Part 1"
 date: "2025-02-16"
 categories: 
   - "nas"
