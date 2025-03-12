@@ -45,7 +45,7 @@ Default:
 - WLED
 
 ### **Software - Automations**  
-TODO
+- Trigger NHC "Everything Off" action when Jablotron alarm is armed
 
 ### **BONUS: Tips**  
 - Assign your devices with a static IP or use DHCP address reservation
