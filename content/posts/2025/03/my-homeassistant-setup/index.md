@@ -35,6 +35,8 @@ Default:
 Custom:
 - NHC2: https://github.com/joleys/niko-home-control-II
 - Jablotron Cloud: https://github.com/Pigotka/ha-cc-jablotron-cloud
+- AEG/Elektrolux: ???
+- ConnectLife: ???
 
 Default:
 - Renson for my Renson Endura ventilation unit
