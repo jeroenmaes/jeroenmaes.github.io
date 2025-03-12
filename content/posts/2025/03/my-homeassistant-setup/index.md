@@ -20,7 +20,12 @@ This page gives an overview of my Home Assistant setup: the hardware and the sof
 
 ### **Software - Addons**  
 
-### **Software - Plugins**  
+- HACS
+- Omada Software Controller: https://github.com/jkunczik/home-assistant-omada
+
+### **Software - Integrations**  
+
+- NHC2: https://github.com/joleys/niko-home-control-II
 
 ### **Software - Automations**  
 
