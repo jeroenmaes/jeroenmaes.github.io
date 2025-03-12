@@ -27,7 +27,7 @@ Custom:
 
 Default:
 - Visual Studio Code
-- 
+- Advanced SSH & Web Terminal
 
 
 ### **Software - Integrations**  
