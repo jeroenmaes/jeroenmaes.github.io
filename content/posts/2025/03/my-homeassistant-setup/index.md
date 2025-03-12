@@ -35,17 +35,18 @@ Default:
 Custom:
 - NHC2: https://github.com/joleys/niko-home-control-II
 - Jablotron Cloud: https://github.com/Pigotka/ha-cc-jablotron-cloud
-- AEG/Elektrolux: ???
-- ConnectLife: ???
+- AEG/Elektrolux: ??? for AEG Dryer and Washing machine
+- ConnectLife: ??? for Pelgrim Dishwasher
 
 Default:
-- Renson for my Renson Endura ventilation unit
+- Renson for Renson Endura ventilation unit
 - Philips Hue
 - Bose SoundTouch
 - Shelly
-- IPP (Internet Printing Protocol) for my HP LaserJet Pro
+- IPP (Internet Printing Protocol) for HP LaserJet Pro
 - WLED
-- MyUplink for my NIBE Heatpump
+- MyUplink for NIBE Heatpump
+- SMA Solar
 
 ### **Software - Automations**  
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
