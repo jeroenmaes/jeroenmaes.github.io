@@ -15,8 +15,8 @@ This page gives an overview of my Home Assistant setup: the hardware and the sof
 
 - Raspberry Pi 4 4GB
 - Case + Heatsinks
-- Raspberry Pi official power supply
-- HP SSD USB Stick
+- Raspberry Pi official USB-C power supply
+- HP x911w SSD USB3.2 Stick
 
 ### **Software - Addons**  
 
@@ -26,7 +26,9 @@ Custom:
 - Cloudflared: https://github.com/brenner-tobias/ha-addons
 
 Default:
-- CloudFlareD
+- Visual Studio Code
+- 
+
 
 ### **Software - Integrations**  
 
