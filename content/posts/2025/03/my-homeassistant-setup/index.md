@@ -37,12 +37,13 @@ Custom:
 - Jablotron Cloud: https://github.com/Pigotka/ha-cc-jablotron-cloud
 
 Default:
-- Renson
+- Renson for my Renson Endura ventilation unit
 - Philips Hue
 - Bose SoundTouch
 - Shelly
 - IPP (Internet Printing Protocol) for my HP LaserJet Pro
 - WLED
+- MyUplink for my NIBE Heatpump
 
 ### **Software - Automations**  
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
