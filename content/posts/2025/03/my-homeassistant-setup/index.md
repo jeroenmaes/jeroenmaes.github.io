@@ -49,5 +49,7 @@ TODO
 
 ### **BONUS: Tips**  
 - Assign your devices with a static IP or use DHCP address reservation
+- Configure backups for HomeAssistant
+- Configure backups for Omada Controller
 
 ---
