@@ -20,12 +20,18 @@ This page gives an overview of my Home Assistant setup: the hardware and the sof
 
 ### **Software - Addons**  
 
-- HACS
+- HACS: https://www.hacs.xyz/
 - Omada Software Controller: https://github.com/jkunczik/home-assistant-omada
 
 ### **Software - Integrations**  
 
 - NHC2: https://github.com/joleys/niko-home-control-II
+- Jablotron Cloud: https://github.com/Pigotka/ha-cc-jablotron-cloud
+- Renson: https://www.home-assistant.io/integrations/renson
+- Philips Hue
+- Bose SoundTouch
+- Shelly
+- IPP (Internet Printing Protocol) for my HP LaserJet Pro
 
 ### **Software - Automations**  
 
