@@ -56,5 +56,6 @@ Default:
 - Implement GEO restrictions in Cloudflare
 - Configure backups for HomeAssistant
 - Configure backups for Omada Controller
+- Use a "Touchscreen profile" with a fixed password in Niko Home Control
 
 ---
