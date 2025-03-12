@@ -51,8 +51,9 @@ Default:
 ### **Software - Automations**  
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
 
-### **BONUS: Tips**  
+### **TIPS: **  
 - Assign your devices with a static IP or use DHCP address reservation
+- Implement GEO restrictions in Cloudflare
 - Configure backups for HomeAssistant
 - Configure backups for Omada Controller
 
