@@ -54,6 +54,7 @@ Default:
 ### **TIPS: **  
 - Assign your devices with a static IP or use DHCP address reservation
 - Implement GEO restrictions in Cloudflare
+- Enable Two-Factor Auth
 - Configure backups for HomeAssistant
 - Configure backups for Omada Controller
 - Use a "Touchscreen profile" with a fixed password in Niko Home Control
