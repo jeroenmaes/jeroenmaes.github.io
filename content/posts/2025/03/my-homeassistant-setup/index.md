@@ -1,5 +1,5 @@
 ---
-title: "My Home Assistant Setup: Hardware, Software, and Automation"
+title: "My Home Assistant Setup"
 date: "2025-03-12"
 categories:   
   - "homeautomation"
