@@ -9,7 +9,7 @@ tags:
 ---
 
 ### **Introduction**  
-This page provides a detailed overview of the hardware and software I use to power my smart home. I’ll cover my Raspberry Pi-based hardware setup, the key software add-ons and integrations, the automations I use and some key tips to enhance the security of a typical home assistant setup.
+This page provides a detailed overview of the hardware and software I use to power my smart home. I’ll cover my Raspberry Pi-based hardware setup, the key software add-ons and integrations, the automations I use and some key tips to enhance the security of a typical Home Assistant setup.
 
 ### **Hardware**  
 
@@ -17,19 +17,19 @@ This page provides a detailed overview of the hardware and software I use to pow
 - Cooling & Power: Case with heatsinks + Raspberry Pi official USB-C power supply.
 - Storage: HP x911w SSD USB 3.2 Stick – Provides better performance and reliability than an SD card.
 
-### **Software - Addons**  
+### **Addons**  
 
 Custom:
-- HACS: https://www.hacs.xyz/
-- Omada Software Controller: https://github.com/jkunczik/home-assistant-omada
-- Cloudflared: https://github.com/brenner-tobias/ha-addons
+- HACS: https://www.hacs.xyz/ - Essential for installing custom integrations and themes.
+- Omada Software Controller: https://github.com/jkunczik/home-assistant-omada - Manages TP-Link Omada network devices.
+- Cloudflared: https://github.com/brenner-tobias/ha-addons - Secure remote access to Home Assistant via Cloudflare tunnels.
 
 Default:
 - Visual Studio Code
 - Advanced SSH & Web Terminal
 
 
-### **Software - Integrations**  
+### **Integrations**  
 
 Custom:
 - NHC2: https://github.com/joleys/niko-home-control-II
