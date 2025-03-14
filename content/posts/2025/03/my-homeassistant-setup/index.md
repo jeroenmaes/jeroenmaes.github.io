@@ -13,49 +13,49 @@ This page provides a detailed overview of the hardware and software I use to pow
 
 ### **Hardware**  
 
-- Raspberry Pi 4 (4GB RAM) – The brain of my Home Assistant setup.
-- Cooling & Power: Simple 3D printed case with some aluminium heatsinks + Raspberry Pi official USB-C power supply.
-- Storage: HP x911w SSD USB 3.2 Stick – Provides better performance and reliability than an SD card.
+- **Raspberry Pi 4 (4GB RAM)** – The brain of my Home Assistant setup.
+- **Cooling & Power** - Simple 3D printed case with some aluminium heatsinks + Raspberry Pi official USB-C power supply.
+- **Storage: HP x911w SSD USB 3.2 Stick** – Provides better performance and reliability than an SD card.
 
 ### **Addons**  
 
 Custom:
-- HACS: https://www.hacs.xyz/ - Essential for installing custom integrations and themes.
-- Omada Software Controller: https://github.com/jkunczik/home-assistant-omada - Manages TP-Link Omada network devices.
-- Cloudflared: https://github.com/brenner-tobias/ha-addons - Secure remote access to Home Assistant via Cloudflare tunnels.
+- **[HACS (Home Assistant Community Store)](https://www.hacs.xyz/):** Essential for installing custom integrations and themes.
+- **[Omada Software Controller](https://github.com/jkunczik/home-assistant-omada):** Manages TP-Link Omada network devices.
+- **[Cloudflared](https://github.com/brenner-tobias/ha-addons):** Secure remote access to Home Assistant via Cloudflare tunnels.
 
 Default:
-- Visual Studio Code - Built-in editor for managing Home Assistant configuration.
-- Advanced SSH & Web Terminal - Provides full SSH access for troubleshooting and automation.
+- **Visual Studio Code** - Built-in editor for managing Home Assistant configuration.
+- **Advanced SSH & Web Terminal** - Provides full SSH access for troubleshooting and automation.
 
 
 ### **Integrations**  
 
 Custom:
-- NHC2: https://github.com/joleys/niko-home-control-II
-- Jablotron Cloud: https://github.com/Pigotka/ha-cc-jablotron-cloud
+- **[NHC2](https://github.com/joleys/niko-home-control-II):** Integration for Niko Home Control II domotica system.
+- **[Jablotron Cloud](https://github.com/Pigotka/ha-cc-jablotron-cloud):** Connects Jablotron security systems.
 - AEG/Elektrolux: ??? for AEG Dryer and Washing machine
 - ConnectLife: ??? for Pelgrim Dishwasher
 
 Default:
 - Renson for Renson Endura ventilation unit
-- Philips Hue
-- Bose SoundTouch
-- Shelly
+- Philips Hue for Lights
+- Bose SoundTouch for Audio Controll
+- Shelly for Power monitoring
 - IPP (Internet Printing Protocol) for HP LaserJet Pro
-- WLED
+- WLED for LED controll
 - MyUplink for NIBE Heatpump
-- SMA Solar
+- SMA Solar for Solar power monitoring
 
 ### **Automations**  
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
 
-### **Security & Optimization Tips **  
-- Assign your devices with a static IP or use DHCP address reservation
-- Implement GEO restrictions in Cloudflare
-- Enable Two-Factor Auth
-- Configure backups for HomeAssistant
-- Configure backups for Omada Controller
-- Use a "Touchscreen profile" with a fixed password in Niko Home Control
+### **Security & Optimization Tips**  
+✔ Assign your devices with a static IP or use DHCP address reservation
+✔ Implement GEO restrictions in Cloudflare for your Tunnel
+✔ Enable Two-Factor Auth for HomeAssitant login
+✔ Configure automated backups for HomeAssistant and the Omada Controller
+✔ Store your backups on a different location and not the storage of you HomeAssistant server itself
+✔ Use a "Touchscreen profile" with a fixed password in Niko Home Control so you don't need to update the token every year
 
 ---
