@@ -34,13 +34,13 @@ Default:
 Custom:
 - **[NHC2](https://github.com/joleys/niko-home-control-II):** Integration for Niko Home Control II domotica system.
 - **[Jablotron Cloud](https://github.com/Pigotka/ha-cc-jablotron-cloud):** Connects Jablotron security systems.
-- AEG/Elektrolux: ??? for AEG Dryer and Washing machine
-- ConnectLife: ??? for Pelgrim Dishwasher
+- **[Home Assistant Electrolux Status](https://github.com/albaintor/homeassistant_electrolux_status)**: Integration for AEG Dryer and Washing machine.
+- **[ConnectLife](https://github.com/oyvindwe/connectlife-ha)**: Integration for Pelgrim Dishwasher.
 
 Default:
 - Renson for Renson Endura ventilation unit
 - Philips Hue for Lights
-- Bose SoundTouch for Audio Controll
+- Bose SoundTouch for Audio controll
 - Shelly for Power monitoring
 - IPP (Internet Printing Protocol) for HP LaserJet Pro
 - WLED for LED controll
