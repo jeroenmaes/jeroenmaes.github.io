@@ -1,5 +1,5 @@
 ---
-title: "My Home Assistant Setup"
+title: "My Home Assistant Setup: Hardware, Software, and Automation"
 date: "2025-03-12"
 categories:   
   - "homeautomation"
@@ -9,14 +9,13 @@ tags:
 ---
 
 ### **Introduction**  
-This page gives an overview of my Home Assistant setup: the hardware and the software.
+This page provides a detailed overview of the hardware and software I use to power my smart home. I’ll cover my Raspberry Pi-based hardware setup, the key software add-ons and integrations, the automations I use and some key tips to enhance the security of a typical home assistant setup.
 
 ### **Hardware**  
 
-- Raspberry Pi 4 4GB
-- Case + Heatsinks
-- Raspberry Pi official USB-C power supply
-- HP x911w SSD USB3.2 Stick
+- Raspberry Pi 4 (4GB RAM) – The brain of my Home Assistant setup.
+- Cooling & Power: Case with heatsinks + Raspberry Pi official USB-C power supply.
+- Storage: HP x911w SSD USB 3.2 Stick – Provides better performance and reliability than an SD card.
 
 ### **Software - Addons**  
 
