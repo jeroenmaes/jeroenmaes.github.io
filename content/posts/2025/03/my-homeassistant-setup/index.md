@@ -48,7 +48,8 @@ Default:
 - SMA Solar for Solar power monitoring
 
 ### **Automations**  
-- Trigger NHC "Everything Off" action when Jablotron alarm is armed
+- **Trigger "Everything Off"** – When the Jablotron alarm is armed, turns off all Niko Home Control lights and smart outlets by calling the "Everything Off" action using the NHC2 AddOn.
+
 
 ### **Security & Optimization Tips**  
 - Assign your devices with a static IP or use DHCP address reservation
