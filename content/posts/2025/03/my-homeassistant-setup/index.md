@@ -25,8 +25,8 @@ Custom:
 - Cloudflared: https://github.com/brenner-tobias/ha-addons - Secure remote access to Home Assistant via Cloudflare tunnels.
 
 Default:
-- Visual Studio Code
-- Advanced SSH & Web Terminal
+- Visual Studio Code - Built-in editor for managing Home Assistant configuration.
+- Advanced SSH & Web Terminal - Provides full SSH access for troubleshooting and automation.
 
 
 ### **Integrations**  
@@ -47,10 +47,10 @@ Default:
 - MyUplink for NIBE Heatpump
 - SMA Solar
 
-### **Software - Automations**  
+### **Automations**  
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
 
-### **TIPS: **  
+### **Security & Optimization Tips **  
 - Assign your devices with a static IP or use DHCP address reservation
 - Implement GEO restrictions in Cloudflare
 - Enable Two-Factor Auth
