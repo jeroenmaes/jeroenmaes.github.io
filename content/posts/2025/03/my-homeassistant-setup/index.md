@@ -14,7 +14,7 @@ This page provides a detailed overview of the hardware and software I use to pow
 ### **Hardware**  
 
 - Raspberry Pi 4 (4GB RAM) – The brain of my Home Assistant setup.
-- Cooling & Power: Case with heatsinks + Raspberry Pi official USB-C power supply.
+- Cooling & Power: Simple 3D printed case with some aluminium heatsinks + Raspberry Pi official USB-C power supply.
 - Storage: HP x911w SSD USB 3.2 Stick – Provides better performance and reliability than an SD card.
 
 ### **Addons**  
