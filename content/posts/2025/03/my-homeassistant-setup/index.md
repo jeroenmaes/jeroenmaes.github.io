@@ -51,11 +51,11 @@ Default:
 - Trigger NHC "Everything Off" action when Jablotron alarm is armed
 
 ### **Security & Optimization Tips**  
-✔ Assign your devices with a static IP or use DHCP address reservation
-✔ Implement GEO restrictions in Cloudflare for your Tunnel
-✔ Enable Two-Factor Auth for HomeAssitant login
-✔ Configure automated backups for HomeAssistant and the Omada Controller
-✔ Store your backups on a different location and not the storage of you HomeAssistant server itself
-✔ Use a "Touchscreen profile" with a fixed password in Niko Home Control so you don't need to update the token every year
+- Assign your devices with a static IP or use DHCP address reservation
+- Implement GEO restrictions in Cloudflare for your Tunnel
+- Enable Two-Factor Auth for HomeAssitant login
+- Configure automated backups for HomeAssistant and the Omada Controller
+- Store your backups on a different location and not the storage of you HomeAssistant server itself
+- Use a "Touchscreen profile" with a fixed password in Niko Home Control so you don't need to update the token every year
 
 ---
