@@ -36,6 +36,7 @@ Custom:
 - **[Jablotron Cloud](https://github.com/Pigotka/ha-cc-jablotron-cloud):** Connects Jablotron security systems.
 - **[Home Assistant Electrolux Status](https://github.com/albaintor/homeassistant_electrolux_status)**: Integration for AEG Dryer and Washing machine.
 - **[ConnectLife](https://github.com/oyvindwe/connectlife-ha)**: Integration for Pelgrim Dishwasher.
+- **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)**: Easy to understand and visualized way of displaying the current Power Distribution coming from and to different sources.
 
 Default:
 - Renson for Renson Endura ventilation unit
