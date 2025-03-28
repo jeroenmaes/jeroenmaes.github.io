@@ -57,7 +57,8 @@ The created "SAS Token" can be used in the header Authorization field to perform
 More details on generating a SAS token can be found in the official documentation: [Generate SAS token | Microsoft Learn](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-sas-tokens)
 
 ## **Conclusion**
-Although managing extra metadata in Azure Service Bus is not (yet ?) fully supported via the Portal or PowerShell, the `UserMetadata` property, combined with the **ServiceBus Administration SDK**, provides a viable solution. By utilizing specific API calls and a SAS token, users can easily link additional metadata to queues and topics.
+Although managing extra metadata in Azure Service Bus is not (yet ?) fully supported via the Portal or PowerShell, the `UserMetadata` property, combined with the **ServiceBus Administration API**, provides a viable solution. 
+By utilizing specific API calls and a SAS token, users can easily link additional metadata to queues and topics.
 
 
 ---
