@@ -28,7 +28,7 @@ Here is an example snippet of the now included XML output where the `UserMetadat
 ```xml
 ...
 <AccessedAt>2025-02-25T13:13:05.33Z</AccessedAt>
-**<UserMetadata>{CMDBID:ABCDEF123}</UserMetadata>**
+<UserMetadata>{CMDBID:ABCDEF123}</UserMetadata>
 <SupportOrdering>false</SupportOrdering>
 ...
 ```
