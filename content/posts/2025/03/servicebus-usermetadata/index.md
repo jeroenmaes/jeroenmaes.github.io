@@ -22,9 +22,9 @@ To manipulate `UserMetadata`, the **ServiceBus Administration SDK** must be used
 ```plaintext
 https://<yournamespace>.servicebus.windows.net/<myqueue>?api-version=2021-05
 ```
-Adding `?api-version=2021-05` to the URL enables the administration API, making extra fields available. This provides more control over queue configuration.
+Adding `?api-version=2021-05` to the URL enables the administration API, making extra fields available. 
 
-Here is an example of the generated XML output where `UserMetadata` is visible:
+Here is an example snippet of the now included XML output where `UserMetadata` is visible:
 ```xml
 <UserMetadata>{CMDBID:ABCDEF123}</UserMetadata>
 ```
