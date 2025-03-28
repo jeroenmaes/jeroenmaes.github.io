@@ -14,7 +14,7 @@ This page provides a detailed overview of the hardware and software I use to pow
 ### **Hardware**  
 
 - **Raspberry Pi 4 (4GB RAM)** – The brain of my Home Assistant setup.
-- **Cooling & Power** - Simple 3D printed case with some aluminium heatsinks + Raspberry Pi official USB-C power supply.
+- **Cooling & Power** - 3D printed case with some aluminium heatsinks + Raspberry Pi official USB-C power supply.
 - **Storage: HP x911w SSD USB 3.2 Stick** – Provides better performance and reliability than an SD card.
 
 ### **Addons**  
@@ -57,7 +57,6 @@ Default:
 - Implement GEO restrictions in Cloudflare for your Tunnel
 - Enable Two-Factor Auth for HomeAssitant login
 - Configure automated backups for HomeAssistant and the Omada Controller
-- Store your backups on a different location and not the storage of you HomeAssistant server itself
-- Use a "Touchscreen profile" with a fixed password in Niko Home Control so you don't need to update the token every year
+- Store your backups on a different location and not the storage of you HomeAssistant server itself (Use for instance the OneDrive Integration)
 
 ---
