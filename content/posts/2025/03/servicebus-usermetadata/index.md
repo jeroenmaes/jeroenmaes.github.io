@@ -16,7 +16,7 @@ Adding extra metadata to Azure Service Bus artifacts can help organize and manag
 The `UserMetadata` property is ideal for storing additional information about a queue. However, this property is only accessible via the **ServiceBus Administration SDK** and is not visible in the **Azure Portal** or via the **ServiceBus PowerShell module**. This behaviour is raised in the following GitHub issue: [Make UserMetadata visible · Issue #731 · Azure/azure-service-bus](https://github.com/Azure/azure-service-bus/issues/731).
 
 ## **Access via the Administration Client**
-To manipulate `UserMetadata`, the **ServiceBus Administration SDK** must be used. This SDK works with a separate endpoint that unlocks additional fields, including `UserMetadata`.
+To manipulate `UserMetadata`, the **ServiceBus Administration SDK** or [ServiceBus Explorer client](https://github.com/paolosalvatori/ServiceBusExplorer) must be used. This SDK works with a separate endpoint that unlocks additional fields, including `UserMetadata`.
 
 ### **Example Request URL:**
 ```plaintext
