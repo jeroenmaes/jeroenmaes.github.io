@@ -9,7 +9,7 @@ tags:
 ---
 
 ### **Introduction**  
-Adding extra metadata to Azure Service Bus artifacts can help organize and manage resources. A practical application of this is linking a **CMDB ID** to a queue or topic. One way of aachieving this via the `UserMetadata` property.
+Adding extra metadata to Azure Service Bus artifacts can help organize and manage resources. A practical application of this is linking a **CMDB ID** to a queue or topic. One way of achieving this via the `UserMetadata` property.
 
 
 ## **UserMetadata Property**
