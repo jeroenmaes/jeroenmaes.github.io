@@ -22,11 +22,15 @@ To manipulate `UserMetadata`, the **ServiceBus Administration SDK** or [ServiceB
 ```plaintext
 https://<yournamespace>.servicebus.windows.net/<myqueue>?api-version=2021-05
 ```
-Adding `?api-version=2021-05` to the URL enables the administration API, making extra fields available. 
+Adding `?api-version=2021-05` to the URL enables the administration API, making extra response fields available. 
 
-Here is an example snippet of the now included XML output where `UserMetadata` is visible:
+Here is an example snippet of the now included XML output where the `UserMetadata` is visible:
 ```xml
-<UserMetadata>{CMDBID:ABCDEF123}</UserMetadata>
+...
+<AccessedAt>2025-02-25T13:13:05.33Z</AccessedAt>
+**<UserMetadata>{CMDBID:ABCDEF123}</UserMetadata>**
+<SupportOrdering>false</SupportOrdering>
+...
 ```
 
 ## **Authentication with a Shared Access Signature (SAS) Token**
