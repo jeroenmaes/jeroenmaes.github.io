@@ -49,8 +49,11 @@ $HMAC.key = [Text.Encoding]::ASCII.GetBytes($Access_Policy_Key)
 $Signature = $HMAC.ComputeHash([Text.Encoding]::ASCII.GetBytes($SignatureString))
 $Signature = [Convert]::ToBase64String($Signature)
 $SASToken = "SharedAccessSignature sr=" + [System.Web.HttpUtility]::UrlEncode($URI) + "&sig=" + [System.Web.HttpUtility]::UrlEncode($Signature) + "&se=" + $Expires + "&skn=" + $Access_Policy_Name
+
 $SASToken
 ```
+The created "SAS Token" can be used in the header Authorization field to perform HTTP GET calls to the already mentioned administration endpoint.
+
 More details on generating a SAS token can be found in the official documentation: [Generate SAS token | Microsoft Learn](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-sas-tokens)
 
 ## **Conclusion**
