@@ -21,7 +21,7 @@ This page provides a detailed overview of the hardware and software I use to pow
 
 Custom:
 - **[HACS (Home Assistant Community Store)](https://www.hacs.xyz/):** Essential for installing custom integrations and themes.
-- <del>[Omada Software Controller](https://github.com/jkunczik/home-assistant-omada): Manages TP-Link Omada network devices.</del> Migrated to the dedicated OC200 hardware controller
+- <del>[Omada Software Controller](https://github.com/jkunczik/home-assistant-omada): Manages TP-Link Omada network devices.</del> Replaced by the dedicated OC200 hardware controller.
 - **[Cloudflared](https://github.com/brenner-tobias/ha-addons):** Secure remote access to Home Assistant via Cloudflare tunnels.
 
 Default:
