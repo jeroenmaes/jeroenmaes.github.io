@@ -40,15 +40,15 @@ Custom:
 - **[Dreame/MOVA lawn mower integration](https://github.com/bhuebschen/dreame-mower)**: Integration for Dreame & MOVA robot lawn mowers
 
 Default:
-- Renson for Renson Endura ventilation unit
-- Philips Hue for Lights
-- Bose SoundTouch for Audio controll
-- Shelly for Power monitoring
-- IPP (Internet Printing Protocol) for HP LaserJet Pro
-- WLED for LED controll
-- MyUplink for NIBE Heatpump
-- SMA Solar for Solar power monitoring
-- Overkiz for Somfy Tahoma Switch using the local API
+- **Renson** for Renson Endura ventilation unit
+- **Philips Hue** for Lights & Smart Plugs
+- **Bose SoundTouch** for Audio controll
+- **Shelly** for Power monitoring
+- **IPP (Internet Printing Protocol)** for HP LaserJet Pro
+- **WLED** for LED controll
+- **MyUplink** for NIBE Heatpump
+- **SMA Solar** for Solar power monitoring
+- **Overkiz** for Somfy Tahoma Switch using the local API
 
 ### **Automations**  
 - **Trigger "Everything Off"** – When the Jablotron alarm is armed, turns off all Niko Home Control lights and smart outlets by calling the "Everything Off" action using the NHC2 AddOn.
