@@ -21,7 +21,7 @@ This page provides a detailed overview of the hardware and software I use to pow
 
 Custom:
 - **[HACS (Home Assistant Community Store)](https://www.hacs.xyz/):** Essential for installing custom integrations and themes.
-- **[Omada Software Controller](https://github.com/jkunczik/home-assistant-omada):** Manages TP-Link Omada network devices.
+- **<del>[Omada Software Controller](https://github.com/jkunczik/home-assistant-omada):** Manages TP-Link Omada network devices.</del> Migrated to the dedicated OC200 hardware controller
 - **[Cloudflared](https://github.com/brenner-tobias/ha-addons):** Secure remote access to Home Assistant via Cloudflare tunnels.
 
 Default:
@@ -37,6 +37,7 @@ Custom:
 - **[Home Assistant Electrolux Status](https://github.com/albaintor/homeassistant_electrolux_status)**: Integration for AEG Dryer and Washing machine.
 - **[ConnectLife](https://github.com/oyvindwe/connectlife-ha)**: Integration for Pelgrim Dishwasher.
 - **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)**: Easy to understand and visualized way of displaying the current Power Distribution coming from and to different sources.
+- **[Dreame/MOVA lawn mower integration](https://github.com/bhuebschen/dreame-mower)**: Integration for Dreame & MOVA robot lawn mowers
 
 Default:
 - Renson for Renson Endura ventilation unit
@@ -47,6 +48,7 @@ Default:
 - WLED for LED controll
 - MyUplink for NIBE Heatpump
 - SMA Solar for Solar power monitoring
+- Overkiz for Somfy Tahoma Switch using the local API
 
 ### **Automations**  
 - **Trigger "Everything Off"** – When the Jablotron alarm is armed, turns off all Niko Home Control lights and smart outlets by calling the "Everything Off" action using the NHC2 AddOn.
@@ -56,7 +58,7 @@ Default:
 - Assign your devices with a static IP or use DHCP address reservation
 - Implement GEO restrictions in Cloudflare for your Tunnel
 - Enable Two-Factor Auth for HomeAssitant login
-- Configure automated backups for HomeAssistant and the Omada Controller
+- Configure automated backups for HomeAssistant (and the Omada Controller)
 - Store your backups on a different location and not the storage of you HomeAssistant server itself (Use for instance the OneDrive Integration)
 
 ---
