@@ -37,7 +37,7 @@ Custom:
 - **[Home Assistant Electrolux Status](https://github.com/albaintor/homeassistant_electrolux_status)**: Integration for AEG Dryer and Washing machine.
 - **[ConnectLife](https://github.com/oyvindwe/connectlife-ha)**: Integration for Pelgrim Dishwasher.
 - **[Power Flow Card Plus](https://github.com/flixlix/power-flow-card-plus)**: Easy to understand and visualized way of displaying the current Power Distribution coming from and to different sources.
-- **[Dreame/MOVA lawn mower integration](https://github.com/bhuebschen/dreame-mower)**: Integration for Dreame & MOVA robot lawn mowers
+- **[Dreame/MOVA lawn mower integration](https://github.com/antondaubert/dreame-mower)**: Integration for Dreame & MOVA robot lawn mowers
 
 Default:
 - **Renson** for Renson Endura ventilation unit
