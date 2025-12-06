@@ -1,5 +1,5 @@
 ---
-title: "Azure API Management: Classic tier limits (incl. Premium) tighten — March 2026"
+title: "Azure API Management Classic tier limits (March 2026)"
 date: "2025-12-06"
 categories:   
   - "azure"
