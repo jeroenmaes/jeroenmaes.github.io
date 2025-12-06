@@ -26,7 +26,7 @@ Source: Microsoft Learn service limits for APIM Classic tiers
 - Plan capacity: add scale units where appropriate; confirm throughput vs. policy costs.
 
 ## Conclusion
-While the new caps may look generous, they introduce real constraints for large-scale deployments. Environments that relied on unrestricted growth will feel the impact. Our selection of Azure APIM originally hinged on the absence of hard limits—this change alters that assumption and requires proactive capacity planning.
+While the new caps may look generous, they introduce real constraints for large-scale deployments. Environments that relied on unrestricted growth will feel the impact. Your selection of Azure APIM originally might hinged on the absence of hard limits. This change alters that assumption and requires proactive capacity planning.
 
 ## References
 - Official limits (Classic tiers): https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#limits---api-management-classic-tiers
