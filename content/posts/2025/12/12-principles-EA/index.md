@@ -73,6 +73,7 @@ tags:
 *	Maintain neutrality until requirements are fully understood.
 
 Closing Notes
+
 These principles aim to ensure long-term business viability, efficiency, and alignment of people, processes, and technology.
 They break down silos, enhance communication, and ensure business needs drive technology solutions.
 
