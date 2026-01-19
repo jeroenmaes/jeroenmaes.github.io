@@ -22,7 +22,7 @@ Why this one:
 
 - widely used in the Home Assistant community
 - solid Thread support once flashed with the right firmware
-- easy to plug into an existing HA box (NUC, mini PC, Raspberry Pi, etc.)
+- easy to plug into my Raspberry Pi
 - dual radio that supports in theory both Zigbee and Thread (not tested for now)
 
 ## Step 2: Flash the firmware 
