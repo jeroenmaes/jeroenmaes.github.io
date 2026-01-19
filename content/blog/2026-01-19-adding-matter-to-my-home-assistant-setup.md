@@ -63,6 +63,7 @@ Once this is in place, you can start pairing Matter devices via Home Assistant.
 I first started by replacing the default antenna with a larger one that I had lying around from an old donor WIFI router, but this was not sufficient in my case.
 
 Thread is a mesh network, so coverage can be expanded with additional Thread-capable routers/border devices. To improve range and stability, I extended my Thread coverage using the **Aqara Hub M100**.
+You need the Aqara smartphone app to link the device to your WIFI network. Once configured it will be able to join the existing Thread network.
 
 This helped in parts of the house where devices were a bit far from the Home Assistant host + dongle.
 
