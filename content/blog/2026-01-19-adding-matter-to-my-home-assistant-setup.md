@@ -1,5 +1,5 @@
 ---
-title: "Adding Matter to my Home Assistant setup"
+title: "Adding Matter over Thread to my Home Assistant setup"
 date: 2026-01-19
 description: "How I added Matter over Thread to Home Assistant using a Sonoff ZBDongle-E."
 tags:
@@ -9,7 +9,10 @@ tags:
   - smart-home
 ---
 
-I wanted to start using **Matter** devices in my Home Assistant setup. Matter itself is the interoperability layer, but in many homes it runs over **Thread** (low-power mesh). This post is the quick checklist I followed to get everything working.
+I wanted to start using **Matter** devices in my Home Assistant setup. More specific the new IKEA TIMMERFLOTTE, a very affordable temperature monitor. 
+Matter itself is the interoperability layer (the universal languange), while **Thread** is a low-power mesh protocol. 
+
+This post is the quick checklist I followed to get everything working.
 
 ## Step 1: Buy the correct dongle — Sonoff ZBDongle-E
 
@@ -20,6 +23,7 @@ Why this one:
 - widely used in the Home Assistant community
 - solid Thread support once flashed with the right firmware
 - easy to plug into an existing HA box (NUC, mini PC, Raspberry Pi, etc.)
+- dual radio that supports in theory both Zigbee and Thread (not tested for now)
 
 ## Step 2: Flash the firmware 
 
@@ -55,6 +59,8 @@ The Matter Server is what lets Home Assistant talk the Matter protocol and actua
 Once this is in place, you can start pairing Matter devices via Home Assistant.
 
 ## Step 5: Extend the network range with a better antenna and the Aqara M100 hub
+
+I first started by replacing the default antenna with a larger one that I had lying around from an old donor WIFI router, but this was not sufficient in my case.
 
 Thread is a mesh network, so coverage can be expanded with additional Thread-capable routers/border devices. To improve range and stability, I extended my Thread coverage using the **Aqara Hub M100**.
 
