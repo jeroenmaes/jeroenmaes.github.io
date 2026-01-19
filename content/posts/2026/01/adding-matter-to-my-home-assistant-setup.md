@@ -34,8 +34,8 @@ I used the **SONOFF Dongle Flasher** addon, which makes this part much simpler t
 High-level flow:
 
 1. Install the flasher add-on.
-2. Select the correct USB device (double-check you’re flashing the Sonoff dongle).
-3. Pick the recommended Thread-capable firmware for the ZBDongle-E.
+2. Select the correct USB device.
+3. Pick the latest Thread-capable firmware for the ZBDongle-E.
 4. Flash and reboot if needed.
 
 ## Step 3: Install the OpenThread Border Router
@@ -62,8 +62,9 @@ Once this is in place, you can start pairing Matter devices via Home Assistant.
 
 I first started by replacing the default antenna with a larger one that I had lying around from an old donor WIFI router, but this was not sufficient in my case.
 
-Thread is a mesh network, so coverage can be expanded with additional Thread-capable routers/border devices. To improve range and stability, I extended my Thread coverage using the **Aqara Hub M100**.
-You need the Aqara smartphone app to link the device to your WIFI network. Once configured it will be able to join the existing Thread network.
+Thread is a mesh network, so coverage can be expanded with additional Thread-capable routers/border devices. 
+To improve range and stability, I extended my Thread coverage using the **Aqara Hub M100**. It is a small stick that can be powerd from a USB power socket.
+You need the Aqara Home smartphone app to link the device to your WIFI network. Once configured it will be able to join the existing Thread network.
 
 This helped in parts of the house where devices were a bit far from the Home Assistant host + dongle.
 
